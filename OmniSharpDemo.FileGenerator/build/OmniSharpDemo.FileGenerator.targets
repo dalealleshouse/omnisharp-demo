@@ -1,0 +1,5 @@
+<Project>
+    <Target Name="FileGeneratorTarget" BeforeTargets="CoreCompile">
+        <FileGenerator FilePath="$(ProjectDir)BuildInfo.cs" />
+    </Target>
+</Project>
